@@ -92,6 +92,13 @@
                                     <action selector="CalcAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SSP-Mz-3xD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x9C-z0-GIg">
+                                <rect key="frame" x="226" y="365" width="149" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -107,6 +114,7 @@
                         <outlet property="Number1" destination="j28-yJ-mcp" id="JkF-MH-PrV"/>
                         <outlet property="Number2" destination="xWT-EX-hmk" id="Rdy-QG-3eX"/>
                         <outlet property="TheLabel" destination="0Z9-VO-3lB" id="rR5-ma-7nB"/>
+                        <outlet property="answer" destination="x9C-z0-GIg" id="Q3L-lN-6RG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

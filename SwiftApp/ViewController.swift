@@ -29,11 +29,16 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var Number2: UITextField!
     
+      var answeris = ""
+    
+    @IBOutlet weak var answer: UILabel!
+    
     @IBAction func CalcAnswer(_ sender: Any) {
         print(Number1.text!)
         print(Number2.text!)
+        answer.text = "Answer: \(Double(Number1.text!)! + Double(Number2.text!)!)"
     }
-    
+  
     
     @IBAction func Button(_ sender: Any) {
         TheLabel.text = "Hello There!"
@@ -42,6 +47,7 @@ class ViewController: UIViewController {
         print ("Tap Count =", tapcount)
         if tapcount > 5 {
             TheLabel.text = "You've pressed > 10"
+            
         }
 
         
