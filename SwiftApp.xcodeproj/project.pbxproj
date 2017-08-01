@@ -301,6 +301,7 @@
 				40C0918C1F2B5C7D00FDB313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
