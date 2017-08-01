@@ -25,6 +25,15 @@ class ViewController: UIViewController {
     @IBAction func Num3(_ sender: Any) {
     }
     
+    @IBOutlet weak var Number1: UITextField!
+    
+    @IBOutlet weak var Number2: UITextField!
+    
+    @IBAction func CalcAnswer(_ sender: Any) {
+        print(Number1.text!)
+        print(Number2.text!)
+    }
+    
     
     @IBAction func Button(_ sender: Any) {
         TheLabel.text = "Hello There!"
