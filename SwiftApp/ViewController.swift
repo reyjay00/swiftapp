@@ -16,26 +16,18 @@ class ViewController: UIViewController {
     var secondnum = 0
     var thirdnum = 0
     
-    @IBAction func Num1(_ sender: Any) {
-    }
-    
-    @IBAction func Num2(_ sender: Any) {
-    }
-    
-    @IBAction func Num3(_ sender: Any) {
-    }
+       ///field entry
     
     @IBOutlet weak var Number1: UITextField!
     
     @IBOutlet weak var Number2: UITextField!
     
-      var answeris = ""
     
     @IBOutlet weak var answer: UILabel!
     
     @IBAction func CalcAnswer(_ sender: Any) {
-        print(Number1.text!)
-        print(Number2.text!)
+       // print(Number1.text!)
+       // print(Number2.text!)
         answer.text = "Answer: \(Double(Number1.text!)! + Double(Number2.text!)!)"
     }
   
