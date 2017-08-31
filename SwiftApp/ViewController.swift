@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     @IBAction func Button(_ sender: Any) {
         TheLabel.text = "Hello There!"
         // print("Hello CLicked")
+        // only works if both number fields are populated
          tapcount = tapcount + 1
         print ("Tap Count =", tapcount)
         if tapcount > 5 {
